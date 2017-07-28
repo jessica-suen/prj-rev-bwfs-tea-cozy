@@ -1,0 +1,166 @@
+html {
+  margin-top: 0;
+  padding-top: 0;
+  text-align: center;
+}
+
+body {
+  font-family: "Helvetica", sans-serif;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+/* Header */
+
+header {
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  position: fixed;
+  z-index: 3;
+  background-color: black;
+  margin-top: 0;
+}
+
+.logo {
+  display: flex;
+  padding-left: 10px;
+}
+
+nav {
+  display: flex;
+  text-decoration: underline;
+  padding-left: 30px;
+  align-items: center;
+}
+
+nav span {
+  padding-left: 20px;
+  font-family: "Helvetica", sans-serif;
+  font-size: 22px;
+  color: seashell;
+}
+
+a {
+  font-family: "Helvetica", sans-serif;
+  font-size: 22px;
+  color: seashell;
+}
+
+
+/* Webpage Content */
+
+.webpage-content {
+  width: 1200px;
+  margin: 0 auto;
+  padding-top: 69px;
+}
+
+#mission {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+  width: 1200px;
+  height: 700px;
+  display: block;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+
+}
+
+.missionstatement {
+  background-color: black;
+  display: block;
+  width: 100%;
+  margin: auto;
+}
+
+
+
+
+
+/* Tea of the Month */
+
+
+#teaofthemonth {
+  width: 1000px;
+  display: block;
+  text-align: center;
+  margin: 100px auto 10px auto;
+}
+
+.teacontainer {
+  justify-content: center;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.teatype {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.teatype img{
+  height: 200px;
+  width: 300px;
+}
+
+.teatype h4 {
+  margin-top: 10px;
+}
+
+
+/* Locations */
+
+#locations {
+  display: block;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+  height: 500px;
+  padding-top: 70px;
+  margin-top: 30px;
+}
+
+.locations-container {
+  display: flex;
+  justify-content: center;
+}
+
+.address {
+  background-color: black;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 20px 0 20px;
+}
+
+.address span{
+  padding: 0 0 40px 0;
+}
+
+.address h3 {
+  margin-bottom: 0px;
+}
+
+
+
+/* Contact */
+
+.contact {
+  height: 200px;
+}
+
+
+/* Footer */
+
+footer {
+  text-align: left;
+  padding-left: 20px;
+}
